@@ -97,10 +97,10 @@ Use the above to answer the following questions:
 
 4. What are the top three features?
 
-    ***The top 3 features based on feature importance from Balanced Random Forest Classifier are as follows
-    1) Last Payment amount
-    2) Total received pricinple
-    3) total payment invoice
+    ***The top 3 features based on feature importance from Balanced Random Forest Classifier are as follows***T
+    ***1) Last Payment amount***
+    ***2) Total received pricinple***
+    ***3) total payment invoice***
     Result - 
      - (0.14929808939312791, 'last_pymnt_amnt'),
      - (0.14884523870066588, 'total_rec_prncp'),
