@@ -4,7 +4,7 @@ Build and evaluate several machine learning models to predict credit risk using 
 
 The data in the dataframe was encoded using pd.to_dummies to get the data in form that is understood by the classification models
  
-![Encoded Data](Images/encodes-data.png)
+![Encoded Data](Images/encoded_data.png)
 
 
 The notebook does the below steps
@@ -47,11 +47,11 @@ For each of the above
 
 2. Which model had the best recall score?
 
-     ***All of the models have the same recall score of 0.99 ***
+     ***All of the models have the same recall score of 0.99***
 
 3. Which model had the best geometric mean score?
 
-     ***All of the models have a good geometric mean score of 0.99 except ClusterCentroids which had a geometric mean score of 0.98 ***
+     ***All of the models have a good geometric mean score of 0.99 except ClusterCentroids which had a geometric mean score of 0.98***
 
 
 
