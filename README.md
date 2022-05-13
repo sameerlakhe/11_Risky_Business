@@ -40,18 +40,17 @@ For each of the above
 4. Print the `imbalanced classification report` from `imblearn.metrics`.
 
 
-
 1. Which model had the best balanced accuracy score?
 
-   ***The SMOTE model has the best accuracy score of 0.9948279972279972***
+   ***The SMOTE/SMOTEENN model has the best accuracy score of 0.9948279972279972 (exactly same)***
 
 2. Which model had the best recall score?
 
-     ***All of the models have the same recall score of 0.99***
+    ***All of the models have the same recall score of 0.99***
 
 3. Which model had the best geometric mean score?
 
-     ***All of the models have a good geometric mean score of 0.99 except ClusterCentroids which had a geometric mean score of 0.98***
+    ***All of the models have a good geometric mean score of 0.99***
 
 
 
@@ -85,26 +84,25 @@ Use the above to answer the following questions:
 
 1. Which model had the best balanced accuracy score?
 
-    ***The Easy Ensemble Classifier has a better balance accuracy score of 0.9642844193045433 vs the Balanced Random Forest Classifier which had the balance accuracy score of 0.7115488435242596***
+    ***The Easy Ensemble Classifier has a better balance accuracy score of 0.9259823295502616 vs the Balanced Random Forest Classifier which had the balance accuracy score of 0.7223058204511484***
 
 2. Which model had the best recall score?
 
-    ***The recall score of Balanced Random Forest Classifier is better i.e 0.97 than Easy Ensemble Classifier which has recall score of 0.94***
+    ***The recall score of Balanced Random Forest Classifier is higher i.e 0.96 than Easy Ensemble Classifier which has recall score of 0.94. The higer recall score might be better in case we want to be risk averse and further analyse false positives***
 
 3. Which model had the best geometric mean score?
 
-    ***The geometric score of Easy Ensemble Classifier is better i.e 0.96 as compare to Balanced Random Forest Classifier which as geometric score of 0.66***
+    ***The geometric score of Easy Ensemble Classifier is better i.e 0.93 as compare to Balanced Random Forest Classifier which as geometric score of 0.68***
 
 4. What are the top three features?
 
     ***The top 3 features based on feature importance from Balanced Random Forest Classifier are as follows***
-    ***1) Last Payment amount***
-    ***2) Total received pricinple***
-    ***3) total payment invoice***
-
-    ***Result -***
-     1) (0.14929808939312791, 'last_pymnt_amnt')
-     2) (0.14884523870066588, 'total_rec_prncp')
-     3) (0.1419916483089956, 'total_pymnt_inv')
+    1) Total received priciple
+    2) Last Payment amount
+    3) total payment invoice
+    Result - 
+      - (0.13358385419997146, 'total_rec_prncp'),
+      - (0.1282232009028145, 'last_pymnt_amnt'),
+      - (0.12092286830085001, 'total_pymnt_inv'),
 
 
