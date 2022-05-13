@@ -16,6 +16,7 @@ The notebook does the below steps
 3. Scale the training and testing data using the `StandardScaler` from `sklearn.preprocessing`.
 
 4. Use the provided code to run a Simple Logistic Regression:
+    ***This is consolidated in the function execute_classification_model***
     * Fit the `logistic regression classifier`.
     * Calculate the `balanced accuracy score`.
     * Display the `confusion matrix`.
@@ -68,7 +69,7 @@ Use the [Balanced Random Forest Classifier](https://imbalanced-learn.org/stable/
 
 
 Then, complete the following steps for each model:
-
+ ***This is consolidated in the function execute_classification_model***
 1. Train the model using the quarterly data from LendingClub provided in the `Resource` folder.
 
 2. Calculate the balanced accuracy score from `sklearn.metrics`.
